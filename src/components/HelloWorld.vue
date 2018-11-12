@@ -54,6 +54,7 @@ export default {
   methods: {
     spawnKitty() {
       this.kitties++
+      window.scrollTo(0, 0)
     },
     giveClass() {
       return this.classes[Math.floor(Math.random() * this.classes.length)]
