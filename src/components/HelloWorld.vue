@@ -46,7 +46,6 @@ export default {
         'https://media1.tenor.com/images/1c723b0ebef6eacbc0807e35a326b9c3/tenor.gif?itemid=7660902',
         'https://cdn.shopify.com/s/files/1/1369/6411/files/cutest-cat-gifs-kitten-heads_large.gif?v=1504275657',
         'http://www.pbh2.com/wordpress/wp-content/uploads/2013/03/cutest-kitten-gifs-massage.gif',
-        'https://i1.wp.com/oregondoglife.com/wp-content/uploads/2017/01/09-1.gif?resize=500%2C380',
         'https://i.pinimg.com/originals/61/08/2b/61082b41002898b4be5478b7a347a3af.gif',
       ],
     }
