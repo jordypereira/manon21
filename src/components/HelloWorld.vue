@@ -1,20 +1,36 @@
 <template>
   <div class="hello">
-    <img v-bind:src="giveKittyImage()" alt="Kitty" class="kitty animated"  v-for="kitty in kitties" v-bind:class="giveClass()" :key="kitty">
+    <img
+      v-bind:src="giveKittyImage()"
+      alt="Kitty"
+      class="kitty animated"
+      v-for="kitty in kitties"
+      v-bind:class="giveClass()"
+      :key="kitty"
+    >
     <div class="text">
       <h1>{{ msg }}</h1>
-      <h2>Redenen waarom je zo fantastisch bent: </h2>
+      <h2>Redenen waarom je zo fantastisch bent:</h2>
       <ul>
-        <li>je bent <b>SUPER</b> knap.</li>
+        <li>je bent
+          <b>SUPER</b> knap.
+        </li>
         <li>Altijd opgewekt en kan op iedereen zijn gezicht een glimlach toveren.</li>
         <li>Ik heb dit letterlijk een half uur voor 12 gemaakt en het zou jammer zijn als het pas volgend jaar af zou zijn maar je bent gewoonweg de beste</li>
       </ul>
     </div>
-    <img src="https://media.giphy.com/media/lzkwynp2MTLeo/giphy.gif" alt="fireworks" class="fireworks">
-    <img src="./../assets/manon.jpg" id="manon">  
-    <img src="https://media.giphy.com/media/lzkwynp2MTLeo/giphy.gif" alt="fireworks" class="fireworks">  
+    <img
+      src="https://media.giphy.com/media/lzkwynp2MTLeo/giphy.gif"
+      alt="fireworks"
+      class="fireworks"
+    >
+    <img src="./../assets/manon.jpg" id="manon">
+    <img
+      src="https://media.giphy.com/media/lzkwynp2MTLeo/giphy.gif"
+      alt="fireworks"
+      class="fireworks"
+    >
     <img src="https://media.giphy.com/media/peAFQfg7Ol6IE/giphy.gif" alt="Fireworks" class="f-left">
-    
     
     <button v-on:click="spawnKitty()">Doneer een katje aan Manon</button>
   </div>
@@ -109,6 +125,8 @@ button {
   background-color: pink;
   padding: 20px 50px;
   transition: 2s all;
+  border: none;
+  border-radius: 4px;
 }
 button:hover {
   background-color: lightskyblue;
