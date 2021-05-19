@@ -1,6 +1,6 @@
 # Manon 21
 
-> 22 Mar 2018
+> 22 Mar 2018  
 > This website was made for my then-girlfriend her 21st birthday.
 
 My first project using Vue
