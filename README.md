@@ -1,21 +1,13 @@
 # Manon 21
 
-> This website was made for my girlfriends 21st birthday.
+> This website was made for my then-girlfriend her 21st birthday.
+
+My first project using Vue
 
 ## Demo
 
 https://manon21.jordypereira.be
 
-## Build Setup
-
-```bash
-# install dependencies
-yarn
-
-# serve with hot reload at localhost:8080
-yarn dev
-
-# build for production with minification
-yarn build
-
-```
+## Tech Stack
+- Vue
+- The CAT Api
